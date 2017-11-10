@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 10, 2017 1:24:34 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pms_clone.model.Tickets" table="TICKETS">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="tracker" type="java.lang.String">
+            <column name="TRACKER" />
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="STATUS" />
+        </property>
+        <property name="priority" type="java.lang.String">
+            <column name="PRIORITY" />
+        </property>
+        <property name="subject" type="java.lang.String">
+            <column name="SUBJECT" />
+        </property>
+        <property name="startDate" type="java.lang.String">
+            <column name="START_DATE" />
+        </property>
+        <property name="duedate" type="java.lang.String">
+            <column name="DUE_DATE" />
+        </property>
+        <property name="targetVersion" type="java.lang.String">
+            <column name="TARGET_VERSION" />
+        </property>
+        <property name="owner" type="java.lang.String">
+            <column name="OWNER" />
+        </property>
+        <property name="estimatedTime" type="java.lang.String">
+            <column name="ESTIMATED_TIME" />
+        </property>
+        <property name="spentTime" type="java.lang.String">
+            <column name="SPENT_TIME" />
+        </property>
+        <property name="resolution" type="java.lang.String">
+            <column name="RESOLUTION" />
+        </property>
+    </class>
+</hibernate-mapping>
