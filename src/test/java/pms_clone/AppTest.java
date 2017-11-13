@@ -44,6 +44,7 @@ public class AppTest {
             session.save(tkt);
             transaction.commit();
             session.close();
+			System.out.println("InsertSuccessful");
         } catch (Exception e) {
             System.out.println("Error in saving project to db "+e.toString());
         }

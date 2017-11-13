@@ -21,22 +21,22 @@
             <column name="SUBJECT" />
         </property>
         <property name="startDate" type="java.lang.String">
-            <column name="START_DATE" />
+            <column name="STARTDATE" />
         </property>
         <property name="duedate" type="java.lang.String">
-            <column name="DUE_DATE" />
+            <column name="DUEDATE" />
         </property>
         <property name="targetVersion" type="java.lang.String">
-            <column name="TARGET_VERSION" />
+            <column name="TARGETVERSION" />
         </property>
         <property name="owner" type="java.lang.String">
             <column name="OWNER" />
         </property>
         <property name="estimatedTime" type="java.lang.String">
-            <column name="ESTIMATED_TIME" />
+                <column name="ESTIMATEDTIME" />
         </property>
         <property name="spentTime" type="java.lang.String">
-            <column name="SPENT_TIME" />
+            <column name="SPENTTIME" />
         </property>
         <property name="resolution" type="java.lang.String">
             <column name="RESOLUTION" />
