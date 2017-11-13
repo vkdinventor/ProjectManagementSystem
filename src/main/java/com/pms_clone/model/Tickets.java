@@ -1,20 +1,23 @@
 package com.pms_clone.model;
 
-public class Tickets {
+import java.io.Serializable;
+import java.util.Date;
+
+public class Tickets implements Serializable{
 	
 	private int id;
 	private String tracker;
 	private String status;
 	private String priority;
 	private String subject;
-	private String startDate;
-	private String duedate;
+	private Date startDate;
+	private Date duedate;
 	private String targetVersion;
 	private String owner;
 	private String estimatedTime;
 	private String spentTime;
 	private String resolution;
-	
+
 	public int getId() {
 		return id;
 	}
@@ -45,16 +48,16 @@ public class Tickets {
 	public void setSubject(String subject) {
 		this.subject = subject;
 	}
-	public String getStartDate() {
+	public Date getStartDate() {
 		return startDate;
 	}
-	public void setStartDate(String startDate) {
+	public void setStartDate(Date startDate) {
 		this.startDate = startDate;
 	}
-	public String getDuedate() {
+	public Date getDuedate() {
 		return duedate;
 	}
-	public void setDuedate(String duedate) {
+	public void setDuedate(Date duedate) {
 		this.duedate = duedate;
 	}
 	public String getTargetVersion() {
@@ -87,7 +90,5 @@ public class Tickets {
 	public void setResolution(String resolution) {
 		this.resolution = resolution;
 	}
-	
-	
 
 }
