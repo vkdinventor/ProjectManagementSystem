@@ -20,10 +20,10 @@
         <property name="subject" type="java.lang.String">
             <column name="SUBJECT" />
         </property>
-        <property name="startDate" type="java.lang.String">
+        <property name="startDate" type="java.util.Date">
             <column name="STARTDATE" />
         </property>
-        <property name="duedate" type="java.lang.String">
+        <property name="duedate" type="java.util.Date">
             <column name="DUEDATE" />
         </property>
         <property name="targetVersion" type="java.lang.String">
