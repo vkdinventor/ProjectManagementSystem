@@ -17,6 +17,8 @@
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <!-- dataTable min  -->
 
+<link href="https://pms.einfochips.com/stylesheets/application.css" rel="stylesheet">
+
 <script type="text/javascript">
 	$(document).ready(function() {
 	$('#example').DataTable();
@@ -27,7 +29,7 @@
 <body bgcolor="#EAEDED"
 	style="font-family: Verdana, Arial, Helvetica, sans-serif">
 
-	<div style="float: center; background-color: #628DB6; padding: 2px">
+	<div id="header">
 		<center>
 			<h2 style="color: white;">
 				<u>PMS Dashboard</u>
@@ -44,8 +46,7 @@
 			}
 			request.setAttribute("ticket_List", ticketList);
 		%>
-		<table id="example" class="display" cellspacing="0" width="100%"
-				border="1">
+		<table id="example" class="list issues">
 				<thead bgcolor="#C0C0C0">
 
 					<tr>
